@@ -26,6 +26,10 @@ const App = () => {
     setVotes(copy)
   }
 
+  const maxVotes = Math.max(...votes)
+  const mostVotedIndex = votes.indexOf(maxVotes)
+  maxVotes === 0 ? "" : console.log(anecdotes[mostVotedIndex])
+
   return (
     <div>
       <div>
@@ -43,6 +47,10 @@ const App = () => {
       <button onClick={handleNextAnecdote}>
         next anecdote
       </button>
+
+      <div>
+        the most voted is "{anecdotes[mostVotedIndex]}" {maxVotes === 0 ? "" : `with ${maxVotes} votes`}
+      </div>
     </div>
   )
 }
