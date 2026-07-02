@@ -1,0 +1,85 @@
+{
+  "persons": [
+    {
+      "id": "5",
+      "name": "Grace Hopper",
+      "number": "045-9876542"
+    },
+    {
+      "id": "6",
+      "name": "Alan Turing",
+      "number": "050-1112223"
+    },
+    {
+      "id": "7",
+      "name": "Linus Torvalds",
+      "number": "041-5556677"
+    },
+    {
+      "id": "8",
+      "name": "Margaret Hamilton",
+      "number": "044-8889990"
+    },
+    {
+      "id": "9",
+      "name": "Donald Knuth",
+      "number": "09-1234123"
+    },
+    {
+      "id": "10",
+      "name": "Barbara Liskov",
+      "number": "046-3213214"
+    },
+    {
+      "id": "11",
+      "name": "Ken Thompson",
+      "number": "042-7654321"
+    },
+    {
+      "id": "12",
+      "name": "Dennis Ritchie",
+      "number": "050-9998887"
+    },
+    {
+      "id": "13",
+      "name": "Katherine Johnson",
+      "number": "043-2223334"
+    },
+    {
+      "id": "14",
+      "name": "Edsger Dijkstra",
+      "number": "09-8765432"
+    },
+    {
+      "id": "15",
+      "name": "Tim Berners-Lee",
+      "number": "047-1231231"
+    },
+    {
+      "id": "16",
+      "name": "John von Neumann",
+      "number": "040-3453456"
+    },
+    {
+      "id": "17",
+      "name": "Radia Perlman",
+      "number": "045-6546543"
+    },
+    {
+      "id": "18",
+      "name": "Guido van Rossum",
+      "number": "041-9871234"
+    },
+    {
+      "id": "19",
+      "name": "Bjarne Stroustrup",
+      "number": "044-7418529"
+    },
+    {
+      "id": "20",
+      "name": "Anita Borg",
+      "number": "046-8529631"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
